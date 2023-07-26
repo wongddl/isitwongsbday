@@ -1,11 +1,18 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Is it Wong's Bday?</title>
-    <link href="{% static 'wongbday/styles.css'%}" rel="stylesheet">
-
+    <style>
+    h1{
+        font-family: Open Sans;
+        font-size: 300px;
+        text-align: center;
+        color: rgb(4, 98, 110);
+    }</style>
 </head>
+
 <body style="background:rgb(31, 31, 31)">
     <h1>{{response}}</h1>
 </body>
